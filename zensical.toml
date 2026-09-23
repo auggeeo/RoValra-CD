@@ -10,10 +10,20 @@ site_name = "Documentation"
 # repo_name = "user/repo"
 # edit_uri = "edit/main/docs/"
 
-#nav = [
-#  { "Get started" = "index.md" },
-#  { "Markdown in 5min" = "markdown.md" },
-#]
+nav = [
+  "index.md",
+
+  { "Reading Settings" = [
+    "Reading Settings/unified.md",
+    "Reading Settings/chrome-storage.md",
+    "Reading Settings/load-settings.md",
+  ] },
+
+  { "Locales" = [
+    "Locales/reading-locale.md",
+    "Locales/adding-locale.md"
+  ]}
+]
 
 extra_css = ["style/icons.css"]
 # extra_javascript = ["javascripts/extra.js"]
