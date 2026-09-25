@@ -194,6 +194,9 @@ repo = "fontawesome/brands/github"
 Settings = "settings"
 Icons = "icons"
 HTML = "html"
+Credit = "credit"
+Contributors = "contributors"
+Translators = "translators"
 
 [project.theme.icon.tag]
 default = "lucide/hash"
