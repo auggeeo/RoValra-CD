@@ -27,6 +27,13 @@ nav = [
   { "Icons" = [
     "Icons/icons-in-html.md",
     "Icons/icons-in-js.md"
+  ]},
+
+  {"Terms of Service" = [
+    "TOS/license.md",
+    "TOS/pp.md",
+    "TOS/api-tos.md",
+    "TOS/api-pp.md"
   ]}
 ]
 

@@ -1,4 +1,10 @@
+---
+title: RoValra CD
+---
+
 # RoValra Contributor Documentation (RoValra CD)
+
+<h2 style="color: #888 !important;">By Contributors, For New Contributors</h2>
 
 ## Contents
 
@@ -14,3 +20,9 @@
 * **Icons**
     - [Using icons in HTML](./Icons/icons-in-html.md)
     - [Using icons in JavaScript](./Icons/icons-in-js.md)
+
+* **Terms of Service**
+    - [Project Licensing Notice](./TOS/license.md)
+    - [Extension Privacy Policy](./TOS/pp.md)
+    - [RoValra API Terms of Use](./TOS/api-tos.md)
+    - [RoValra API Privacy Policy](./TOS/api-pp.md)

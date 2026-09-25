@@ -122,6 +122,8 @@ type CSSLength = `${number}${'%'|'cap'|'ch'|'cm'|'deg'|'dpcm'|'dpi'|'dppx'|'dvb'
 * **Builder Icons Outlined:** <https://www.rovalra.com/static/fonts/BuilderIcons-Regular.woff2> (or [truetype](https://www.rovalra.com/static/fonts/BuilderIcons-Regular.ttf))
 * **Builder Icons Filled:** <https://www.rovalra.com/static/fonts/BuilderIcons-Filled.woff2> (or [truetype](https://www.rovalra.com/static/fonts/BuilderIcons-Filled.ttf))
 * **RoValra Icons:** <https://www.rovalra.com/static/fonts/RoValraIcons.woff2> (or [truetype](https://www.rovalra.com/static/fonts/RoValraIcons.ttf))
+* **Material Icons:** <https://fonts.gstatic.com/s/materialicons/v145/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2>
+* **Material Icons Outlined:** <https://fonts.gstatic.com/s/materialiconsoutlined/v110/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUce.woff2>
 
 ### Icon Indexes
 

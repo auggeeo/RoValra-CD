@@ -1,27 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       <url>
-        <loc>https://www.example.com/</loc>
+        <loc>https://bogdan-glitchm.github.io/RoValra-CD/</loc>
       </url>
       <url>
-        <loc>https://www.example.com/Reading%20Settings/unified/</loc>
+        <loc>https://bogdan-glitchm.github.io/RoValra-CD/Reading%20Settings/unified/</loc>
       </url>
       <url>
-        <loc>https://www.example.com/Reading%20Settings/chrome-storage/</loc>
+        <loc>https://bogdan-glitchm.github.io/RoValra-CD/Reading%20Settings/chrome-storage/</loc>
       </url>
       <url>
-        <loc>https://www.example.com/Reading%20Settings/load-settings/</loc>
+        <loc>https://bogdan-glitchm.github.io/RoValra-CD/Reading%20Settings/load-settings/</loc>
       </url>
       <url>
-        <loc>https://www.example.com/Locales/reading-locale/</loc>
+        <loc>https://bogdan-glitchm.github.io/RoValra-CD/Locales/reading-locale/</loc>
       </url>
       <url>
-        <loc>https://www.example.com/Locales/adding-locale/</loc>
+        <loc>https://bogdan-glitchm.github.io/RoValra-CD/Locales/adding-locale/</loc>
       </url>
       <url>
-        <loc>https://www.example.com/Icons/icons-in-html/</loc>
+        <loc>https://bogdan-glitchm.github.io/RoValra-CD/Icons/icons-in-html/</loc>
       </url>
       <url>
-        <loc>https://www.example.com/Icons/icons-in-js/</loc>
+        <loc>https://bogdan-glitchm.github.io/RoValra-CD/Icons/icons-in-js/</loc>
+      </url>
+      <url>
+        <loc>https://bogdan-glitchm.github.io/RoValra-CD/TOS/license/</loc>
+      </url>
+      <url>
+        <loc>https://bogdan-glitchm.github.io/RoValra-CD/TOS/pp/</loc>
+      </url>
+      <url>
+        <loc>https://bogdan-glitchm.github.io/RoValra-CD/TOS/api-tos/</loc>
+      </url>
+      <url>
+        <loc>https://bogdan-glitchm.github.io/RoValra-CD/TOS/api-pp/</loc>
       </url>
 </urlset>
