@@ -1,2 +1,4 @@
 .venv/
 .gh-pages/
+site/**
+site
