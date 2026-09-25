@@ -2,6 +2,8 @@
 title: Load Settings
 status: slow
 comments: true
+tags:
+    - Settings
 ---
 
 To read settings with `loadSettings`, do as follows:
