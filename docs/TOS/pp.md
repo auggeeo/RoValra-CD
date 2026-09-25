@@ -16,6 +16,7 @@ Our data collection practices differ significantly depending on how you engage w
 
 **A. General Users (Non-Donators)**
 For the vast majority of users who use the free features of the Extension:
+
 *   RoValra does **not** collect, store, or transmit any personally identifiable information (PII).
 *   We do not track browsing history, emails, passwords, or names.
 *   The Extension primarily interacts with Roblox's services and APIs, developer-controlled APIs, and potentially other third-party APIs strictly to retrieve public data required for functionality.
@@ -24,6 +25,7 @@ For the vast majority of users who use the free features of the Extension:
 For users who have voluntarily donated to support RoValra and wish to utilize exclusive features (such as Donator Badges), we collect and store specific information. This collection occurs **only** after you explicitly authenticate via **OAuth** to verify your identity.
 
 If you are a donator and choose to authenticate, we store the following data in our secure database:
+
 1.  **Roblox User ID:** (Public Information) To uniquely identify your account.
 2.  **Roblox Username:** (Public Information) To display your identity correctly within the extension.
 3.  **Donation Amount:** To track your contribution tier.
@@ -41,6 +43,7 @@ To manage Donator features, users must authenticate using Roblox's official OAut
 
 **Strict Limitations on Token Usage:**
 It is critical to understand what these tokens are used for.
+
 1.  **Read-Only Scope:** The tokens allow us to **read** your public User ID and Profile. They **DO NOT** give us access to change your Roblox password, spend your Robux, trade items, or modify your games.
 2.  **Internal Modification Only:** The only "write" action permitted is modifying the visibility of your **RoValra Donator Badge**. This change occurs strictly within the **RoValra database**, not on the Roblox platform.
 
@@ -67,6 +70,7 @@ We respect your control over your personal data. If you are a donator and your d
     *   *Note: This will delete your User ID, Username, and revoke/delete your OAuth Tokens. You will lose the ability to display Donator Badges.*
 
 To exercise these rights, please contact us via email at **RoValraContact@gmail.com** with one of the following subject lines:
+
 *   **Subject:** "Right to Access"
 *   **Subject:** "Right to Erase"
 
@@ -97,6 +101,7 @@ To provide its features, RoValra interacts with several Application Programming 
 **8. Children's Privacy**
 
 The Extension is designed to be compliant with the Children's Online Privacy Protection Act (COPPA).
+
 *   **General Use:** We do not collect personal information from children via the general use of the extension.
 *   **Donation/OAuth Features:** The donation system and the associated OAuth login functionality are strictly limited to users aged **13 and older**. We do not knowingly process OAuth logins or store tokens for users under the age of 13.
 

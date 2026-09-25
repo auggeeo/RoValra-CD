@@ -80,6 +80,7 @@ These terms ensure a fair and sustainable environment for all users. By accessin
 ## Permitted Use
 
 You are free to use the RoValra API for your projects under the following conditions:
+
 *   **Attribution:** You must provide clear attribution to RoValra in your project. A simple "Powered by RoValra" with a link to our website (https://rovalra.com) is sufficient.
 *   **User-Agent:** We strongly recommend identifying your application by setting a custom User-Agent header for all API requests (e.g., `MyAwesomeProject/1.0`). Including a valid contact address is also recommended. This helps us identify traffic and contact you if needed.
 *   **Rate Limiting:** You must respect the API rate limits. Abusing the API may result in a temporary or permanent block.
@@ -89,6 +90,7 @@ You are free to use the RoValra API for your projects under the following condit
 <!-- section:prohibited-use:fas fa-ban -->
 ## Prohibited Use
 You may not use the API for any of the following purposes:
+
 *   In any project or application that violates or violated the [Roblox Terms of Service](https://en.help.roblox.com/hc/en-us/articles/115004647846-Roblox-Terms-of-Use), regardless of whether the API itself is used for the violating action.
 *   For any form of data scraping, data mining, or mass data collection.
 *   To reverse-engineer or attempt to gain unauthorized access to our systems.

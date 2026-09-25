@@ -72,6 +72,7 @@ In the event that the official Roblox OAuth system is unavailable or fails to fu
 ## Local Storage
 
 RoValra uses your browser's local storage to remember your preferences and support extension features.
+
 - **Configuration:** Your extension settings (toggles, UI choices) are stored locally.
 - **Caching:** We may cache public Roblox data (like friend lists or group info) locally to reduce network requests and improve load times.
 
@@ -116,6 +117,7 @@ We believe in absolute privacy. RoValra does **not** use any analytics suites (l
 ## Optional Data Sharing
 
 For certain features, the Extension may send specific non-personal data:
+
 - **Data points:** Transmits only **PlaceIds** and **serverIds**.
 - **Purpose:** Used to enhance server-tracking and uptime features.
 - **Control:** Completely optional; can be disabled in settings at any time.

@@ -17,7 +17,7 @@ status: new
         classes: ["my-class"],  // (2)!
         material: false,
         rovalra: false,
-    });  // (3)!
+    });
 
     document.appendChild(robloxTilt);
     ```
@@ -25,8 +25,6 @@ status: new
     1. Update path accordingly.
 
     2. You can also provide an empty list (`[]`) if you don't want to pass any classes; or you can pass a list with multiple classes.
-
-    3. All arguments are required
 
 === "`TypeScript`"
 
@@ -40,7 +38,7 @@ status: new
         classes: ["my-class"],  // (2)!
         material: false,
         rovalra: false,
-    });  // (3)!
+    });
 
     document.appendChild(robloxTilt);
     ```
@@ -49,16 +47,14 @@ status: new
 
     2. You can also provide an empty list (`[]`) if you don't want to pass any classes; or you can pass a list with multiple classes.
 
-    3. All arguments are required
-
 ### Arguments
 
-* `icon: string` &mdash; Icon name
-* `filled: boolean` &mdash; Whether the icon should be filled
-* `size: PresetSizes | CSSLength` &mdash; the size for the icon
-* `classes: string[]` &mdash; An array of extra classes to give the icon element
-* `material: boolean` &mdash; Whether to use Material Icons
-* `rovalra: boolean` &mdash; Whether to use RoValra Icons
+* `icon: string` &mdash; Icon name (required)
+* `filled?: boolean = false` &mdash; Whether the icon should be filled
+* `size?: PresetSizes | CSSLength = '1em'` &mdash; the size for the icon
+* `classes?: string | string[] = []` &mdash; An array of extra classes to give the icon element
+* `material?: boolean = false` &mdash; Whether to use Material Icons
+* `rovalra?: boolean = false` &mdash; Whether to use RoValra Icons
 
 ## Using Material Icons
 

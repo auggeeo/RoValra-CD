@@ -1254,7 +1254,7 @@
 </span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="w">    </span><span class="nx">classes</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"my-class"</span><span class="p">],</span><span class="w">  </span><span class="c1">// (2)!</span>
 </span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="w">    </span><span class="nx">material</span><span class="o">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
 </span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="w">    </span><span class="nx">rovalra</span><span class="o">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="p">});</span><span class="w">  </span><span class="c1">// (3)!</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="p">});</span>
 </span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11"></a>
 </span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12"></a><span class="nb">document</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">robloxTilt</span><span class="p">);</span>
 </span></code></pre></div></td></tr></table></div>
@@ -1264,9 +1264,6 @@
 </li>
 <li>
 <p>You can also provide an empty list (<code>[]</code>) if you don't want to pass any classes; or you can pass a list with multiple classes.</p>
-</li>
-<li>
-<p>All arguments are required</p>
 </li>
 </ol>
 </div>
@@ -1291,7 +1288,7 @@
 </span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7"></a><span class="w">    </span><span class="nx">classes</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"my-class"</span><span class="p">],</span><span class="w">  </span><span class="c1">// (2)!</span>
 </span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8"></a><span class="w">    </span><span class="nx">material</span><span class="o">:</span><span class="w"> </span><span class="kt">false</span><span class="p">,</span>
 </span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9"></a><span class="w">    </span><span class="nx">rovalra</span><span class="o">:</span><span class="w"> </span><span class="kt">false</span><span class="p">,</span>
-</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10"></a><span class="p">});</span><span class="w">  </span><span class="c1">// (3)!</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10"></a><span class="p">});</span>
 </span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11"></a>
 </span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12"></a><span class="nb">document</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">robloxTilt</span><span class="p">);</span>
 </span></code></pre></div></td></tr></table></div>
@@ -1302,21 +1299,18 @@
 <li>
 <p>You can also provide an empty list (<code>[]</code>) if you don't want to pass any classes; or you can pass a list with multiple classes.</p>
 </li>
-<li>
-<p>All arguments are required</p>
-</li>
 </ol>
 </div>
 </div>
 </div>
 <h3 id="arguments">Arguments<a class="headerlink" href="#arguments" title="Permanent link">&para;</a></h3>
 <ul>
-<li><code>icon: string</code> &mdash; Icon name</li>
-<li><code>filled: boolean</code> &mdash; Whether the icon should be filled</li>
-<li><code>size: PresetSizes | CSSLength</code> &mdash; the size for the icon</li>
-<li><code>classes: string[]</code> &mdash; An array of extra classes to give the icon element</li>
-<li><code>material: boolean</code> &mdash; Whether to use Material Icons</li>
-<li><code>rovalra: boolean</code> &mdash; Whether to use RoValra Icons</li>
+<li><code>icon: string</code> &mdash; Icon name (required)</li>
+<li><code>filled?: boolean = false</code> &mdash; Whether the icon should be filled</li>
+<li><code>size?: PresetSizes | CSSLength = '1em'</code> &mdash; the size for the icon</li>
+<li><code>classes?: string | string[] = []</code> &mdash; An array of extra classes to give the icon element</li>
+<li><code>material?: boolean = false</code> &mdash; Whether to use Material Icons</li>
+<li><code>rovalra?: boolean = false</code> &mdash; Whether to use RoValra Icons</li>
 </ul>
 <h2 id="using-material-icons">Using Material Icons<a class="headerlink" href="#using-material-icons" title="Permanent link">&para;</a></h2>
 <p>By default, <code>Icon</code> uses Builder Icons. To use a Material icon, set <code>material: true</code> in the function arguments.</p>
