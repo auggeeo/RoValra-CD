@@ -14,26 +14,26 @@ nav = [
   "index.md",
 
   { "Reading Settings" = [
-    "Reading Settings/unified.md",
-    "Reading Settings/chrome-storage.md",
-    "Reading Settings/load-settings.md",
+    "reading-settings/unified.md",
+    "reading-settings/chrome-storage.md",
+    "reading-settings/load-settings.md",
   ] },
 
   { "Locales" = [
-    "Locales/reading-locale.md",
-    "Locales/adding-locale.md"
+    "locales/reading-locale.md",
+    "locales/adding-locale.md"
   ]},
 
   { "Icons" = [
-    "Icons/icons-in-html.md",
-    "Icons/icons-in-js.md"
+    "icons/icons-in-html.md",
+    "icons/icons-in-js.md"
   ]},
 
   {"Terms of Service" = [
-    "TOS/license.md",
-    "TOS/pp.md",
-    "TOS/api-tos.md",
-    "TOS/api-pp.md"
+    "tos/license.md",
+    "tos/privacy-policy.md",
+    "tos/api-tos.md",
+    "tos/api-privacy-policy.md"
   ]}
 ]
 
