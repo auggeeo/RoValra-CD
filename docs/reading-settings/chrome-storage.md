@@ -46,4 +46,4 @@ export const SETTINGS_CONFIG = {
     1. Please, in the Record passed to chrome.storage.local.get, make sure that the key is your setting key as it appears in `SETTINGS_CONFIG`, and that the value is your default value!
 
 !!! failure "Deprecated"
-    This method has been deprecated in favor of the [unified settings API](./unified.md), as the new alternative automatically applies caching.
+    This method has been deprecated in favor of the [unified settings API](unified.md), as the new alternative automatically applies caching.

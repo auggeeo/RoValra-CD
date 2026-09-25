@@ -2,43 +2,55 @@
 site_url = "https://bogdan-glitchm.github.io/RoValra-CD/"
 site_name = "RoValra Contributor Documentation"
 site_description = "By contributors, for new contributors"
-site_author = "bogdan-glitchm"
+site_author = "bogdan-glitchm and RoValra contributors"
 
-# copyright = "Copyright &copy; 2026 Your name"
+copyright = "Copyright &copy; 2026 Bogdan and other RoValra contributors."
 
 repo_url = "https://github.com/bogdan-glitchm/RoValra-CD"
 repo_name = "bogdan-glitchm/RoValra-CD"
 # edit_uri = "edit/main/docs/"
 
 nav = [
-  "index.md",
+  { "RoValra Contributor Docs" = "index.md" },
+
+  { "Contributions" = [
+    { "Adding yourself" = "contributors/adding-yourself.md" }
+  
+  ] },
+
+  { "Translators" = [
+    { "Adding yourself" = "translators/adding-yourself.md" }
+  
+  ] },
 
   { "Reading Settings" = [
-    "Reading Settings/unified.md",
-    "Reading Settings/chrome-storage.md",
-    "Reading Settings/load-settings.md",
+    "reading-settings/unified.md",
+    "reading-settings/chrome-storage.md",
+    "reading-settings/load-settings.md",
   ] },
 
   { "Locales" = [
-    "Locales/reading-locale.md",
-    "Locales/adding-locale.md"
+    "locales/reading-locale.md",
+    "locales/adding-locale.md"
   ]},
 
   { "Icons" = [
-    "Icons/icons-in-html.md",
-    "Icons/icons-in-js.md"
+    "icons/icons-in-html.md",
+    "icons/icons-in-js.md"
   ]},
 
   {"Terms of Service" = [
-    "TOS/license.md",
-    "TOS/pp.md",
-    "TOS/api-tos.md",
-    "TOS/api-pp.md"
+    "tos/license.md",
+    "tos/privacy-policy.md",
+    "tos/api-tos.md",
+    "tos/api-privacy-policy.md"
   ]}
 ]
 
 extra_css = ["style/icons.css"]
 # extra_javascript = ["javascripts/extra.js"]
+
+dev_addr = "0.0.0.0:8000"
 
 [project.theme]
 # variant = "classic"
@@ -131,6 +143,7 @@ pymdownx.magiclink = {}
 pymdownx.mark = {}
 pymdownx.smartsymbols = {}
 # pymdownx.snippets.base_path = "includes"
+pymdownx.snippets = { base_path = "reference" }
 pymdownx.superfences.custom_fences = [
   { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
 ]
@@ -142,6 +155,9 @@ pymdownx.tilde = {}
 [project.extra.status]
 risky = "Dangerous"
 slow = "Slow / Unoptimized"
+new = "New"
+deprecated = "Deprecated"
+construction = "Under Construction"
 
 [project.extra.analytics.feedback]
 title = "Was this page helpful?"

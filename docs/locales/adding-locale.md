@@ -34,7 +34,7 @@ To actually get the **translator badge** and show up in the contributor list:
 
 To add a locale key, simply edit the JSON data of the English locale file (`public/Assets/locales/en.json`) to add a new key (ex. `helloWorld`) with a value.
 
-[View how to read a locale](./reading-locale.md){ .md-button .md-button--primary }
+[View how to read a locale](reading-locale.md){ .md-button .md-button--primary }
 [View more information about i18next](https://www.i18next.com/){ .md-button }
 
 ## More Info
