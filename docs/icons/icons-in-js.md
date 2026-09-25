@@ -2,6 +2,8 @@
 title: Using icons in JavaScript
 status: new
 comments: true
+tags:
+    - Icons
 ---
 
 ## Basic syntax

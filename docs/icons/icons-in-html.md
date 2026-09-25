@@ -2,6 +2,9 @@
 title: Using icons in HTML
 status: new
 comments: true
+tags:
+    - Icons
+    - HTML
 ---
 
 ## Basic Syntax

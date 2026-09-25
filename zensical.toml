@@ -59,7 +59,7 @@ custom_dir = "overrides"
 language = "en"
 features = [
   "announce.dismiss",
-  # "content.action.edit",
+  "content.action.edit",
   # "content.action.view",
   "content.code.annotate",
   "content.code.copy",
@@ -186,3 +186,20 @@ actions = [
 [project.extra.analytics]
 provider = "google"
 property = "G-K8EYL52MCX"
+
+[project.theme.icon]
+repo = "fontawesome/brands/github"
+
+[project.extra.tags]
+Settings = "settings"
+Icons = "icons"
+HTML = "html"
+
+[project.theme.icon.tag]
+default = "lucide/hash"
+settings = "custom/settings"
+icons = "custom/icons"
+html = "custom/html"
+
+[project.markdown_extensions.pymdownx.emoji.options]
+custom_icons = ["overrides/.icons"]
