@@ -11,7 +11,12 @@ repo_name = "bogdan-glitchm/RoValra-CD"
 # edit_uri = "edit/main/docs/"
 
 nav = [
-  "index.md",
+  { "RoValra Contributor Docs" = "index.md" },
+
+  { "Contributions" = [
+    { "Adding yourself" = "contributors/adding-yourself.md" }
+  
+  ] },
 
   { "Reading Settings" = [
     "reading-settings/unified.md",
@@ -133,6 +138,7 @@ pymdownx.magiclink = {}
 pymdownx.mark = {}
 pymdownx.smartsymbols = {}
 # pymdownx.snippets.base_path = "includes"
+pymdownx.snippets = { base_path = "reference" }
 pymdownx.superfences.custom_fences = [
   { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
 ]
@@ -146,3 +152,4 @@ risky = "Dangerous"
 slow = "Unoptimized"
 new = "New"
 deprecated = "Deprecated"
+construction = "Under Construction"
