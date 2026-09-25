@@ -1,5 +1,6 @@
 ---
 title: Reading Locales
+comments: true
 ---
 
 ## Reading a locale without variables

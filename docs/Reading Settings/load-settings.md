@@ -1,6 +1,7 @@
 ---
 title: Load Settings
-status: risky
+status: slow
+comments: true
 ---
 
 To read settings with `loadSettings`, do as follows:

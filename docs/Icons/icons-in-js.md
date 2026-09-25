@@ -1,6 +1,7 @@
 ---
 title: Using icons in JavaScript
 status: new
+comments: true
 ---
 
 ## Basic syntax

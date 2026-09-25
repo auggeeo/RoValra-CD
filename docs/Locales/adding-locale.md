@@ -1,5 +1,6 @@
 ---
 title: Adding a Locale
+comments: true
 ---
 
 ## Adding a new Locale File

@@ -1,6 +1,7 @@
 ---
 title: Using icons in HTML
 status: new
+comments: true
 ---
 
 ## Basic Syntax
