@@ -1,5 +1,6 @@
 ---
 title: Unified Settings API
+comments: true
 ---
 
 To read a setting using the unified settings API, do:

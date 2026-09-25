@@ -1,6 +1,7 @@
 ---
 title: Chrome Storage
 status: deprecated
+comments: true
 ---
 
 To read settings with `chrome` APIs, run the following:
