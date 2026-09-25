@@ -1,6 +1,9 @@
 ---
 title: Adding yourself as a Contributor
 comments: true
+tags:
+    - Credit
+    - Contributors
 ---
 
 To add yourself as a contributor, simply go into `content/core/configs/userIds.js` and add your Roblox user id and your gh username!

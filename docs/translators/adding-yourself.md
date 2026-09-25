@@ -1,6 +1,9 @@
 ---
 title: Add yourself as a translator
 comments: true
+tags:
+    - Credit
+    - Translators
 ---
 
 To add yourself as a translator, simply go into `content/core/configs/userIds.js` and add your Roblox user id and your gh username!
