@@ -18,6 +18,11 @@ nav = [
   
   ] },
 
+  { "Translators" = [
+    { "Adding yourself" = "translators/adding-yourself.md" }
+  
+  ] },
+
   { "Reading Settings" = [
     "reading-settings/unified.md",
     "reading-settings/chrome-storage.md",
