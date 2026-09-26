@@ -1,6 +1,7 @@
 ---
 title: Load Settings
 status: slow
+icon: lucide/settings-2
 comments: true
 tags:
     - Settings

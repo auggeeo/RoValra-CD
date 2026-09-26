@@ -1,5 +1,6 @@
 ---
 title: Unified Settings API
+icon: lucide/settings
 comments: true
 tags:
     - Settings

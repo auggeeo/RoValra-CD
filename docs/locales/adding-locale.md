@@ -1,6 +1,7 @@
 ---
 title: Adding a Locale
 comments: true
+icon: lucide/languages
 ---
 
 ## Adding a new Locale File

@@ -1,5 +1,6 @@
 ---
 title: RoValra API Privacy Policy
+icon: lucide/earth-lock
 ---
 
 **Privacy Policy for RoValra Chrome Extension**

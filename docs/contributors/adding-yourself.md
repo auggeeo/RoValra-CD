@@ -1,12 +1,13 @@
 ---
 title: Adding yourself as a Contributor
+icon: lucide/user-star
 comments: true
 tags:
     - Credit
     - Contributors
 ---
 
-To add yourself as a contributor, simply go into `content/core/configs/userIds.js` and add your Roblox user id and your gh username!
+To add yourself as a contributor, simply go into `content/core/configs/userIds.js` and add your Roblox user id and your gh username! Afterwards you will get a fancy badge!
 
 ``` js title='content/core/configs/userIds.js' linenums='1'
 export const CONTRIBUTOR_USER_IDS = [

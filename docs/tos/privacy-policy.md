@@ -1,5 +1,6 @@
 ---
 title: Extension Privacy Policy
+icon: lucide/user-shield
 ---
 
 **Privacy Policy for RoValra Chrome Extension**

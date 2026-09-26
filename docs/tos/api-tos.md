@@ -1,5 +1,6 @@
 ---
 title: RoValra API Terms of Use
+icon: lucide/receipt-text
 ---
 
 # RoValra Terms of Service & API Terms of Use

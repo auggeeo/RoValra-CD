@@ -1,6 +1,7 @@
 ---
 title: Chrome Storage
 status: deprecated
+icon: lucide/wrench-off
 comments: true
 tags:
     - Settings

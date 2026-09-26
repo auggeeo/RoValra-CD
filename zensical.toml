@@ -88,8 +88,9 @@ features = [
 
 # logo = "assets/logo.png"
 
-# [project.theme.icon]
-# logo = "lucide/smile"
+[project.theme.icon]
+#logo = "lucide/smile"
+repo = "fontawesome/brands/github"
 
 # [project.theme.font]
 # text = "Inter"
@@ -186,9 +187,6 @@ actions = [
 [project.extra.analytics]
 provider = "google"
 property = "G-K8EYL52MCX"
-
-[project.theme.icon]
-repo = "fontawesome/brands/github"
 
 [project.extra.tags]
 Settings = "settings"

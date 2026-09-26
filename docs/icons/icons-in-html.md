@@ -1,6 +1,7 @@
 ---
 title: Using icons in HTML
 status: new
+icon: lucide/code
 comments: true
 tags:
     - Icons

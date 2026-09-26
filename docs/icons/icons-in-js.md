@@ -1,6 +1,7 @@
 ---
 title: Using icons in JavaScript
 status: new
+icon: lucide/braces
 comments: true
 tags:
     - Icons

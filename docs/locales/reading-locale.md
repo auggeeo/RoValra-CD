@@ -1,6 +1,7 @@
 ---
 title: Reading Locales
 comments: true
+icon: custom/globe-code
 ---
 
 ## Reading a locale without variables

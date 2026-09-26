@@ -1,5 +1,6 @@
 ---
 title: Project Licensing Notice
+icon: lucide/scale
 ---
 
 &nbsp;&nbsp;Unless otherwise stated, the source code in this repository is licensed under
